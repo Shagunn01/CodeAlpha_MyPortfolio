@@ -286,12 +286,11 @@ body {
 
 .sec {
     display: flex;
-    /* flex-wrap: wrap; */
     padding-bottom: 0px;
 }
 @media(max-width:778px){
     .sec{
-        flex-directtion:column;
+        flex-direction:column;
     }
     .container1{
         margin:0;
@@ -1284,4 +1283,5 @@ body {
         color: #000;
     }
 }
+
 
