@@ -286,18 +286,26 @@ body {
 
 .sec {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-bottom: 0px;
+}
+@media(max-width:778px){
+    .sec{
+        flex-directtion:column;
+    }
+    .container1{
+        margin:0;
+    }
 }
 
 .container1 {
-    width: 600px;
+    max-width: 600px;
     max-height: 500px;
     padding: 10px;
     margin-left: 100px;
 }
 .container2 {
-    width: 600px;
+    max-width: 600px;
     max-height: 500px;
     padding: 10px;
     margin-left: 100px;
@@ -1276,3 +1284,4 @@ body {
         color: #000;
     }
 }
+
